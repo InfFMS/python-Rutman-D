@@ -3,3 +3,14 @@
 # Пример:
 # Ввод: Первое число: 10, Второе число: 2, Операция: *
 # Вывод: Результат: 20
+n = int(input())
+m = int(input())
+v = input()
+if v == "-":
+    print(n-m)
+elif v == "+":
+    print(n+m)
+elif v == "/":
+    print(n/m)
+else:
+    print(n*m)
